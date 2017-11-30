@@ -42,22 +42,22 @@ namespace DBDiff.Front
             // 
             this.btnCancel.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
             this.btnCancel.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancel.Location = new System.Drawing.Point(433, 450);
+            this.btnCancel.Location = new System.Drawing.Point(433, 415);
             this.btnCancel.Name = "btnCancel";
-            this.btnCancel.Size = new System.Drawing.Size(75, 23);
+            this.btnCancel.Size = new System.Drawing.Size(75, 21);
             this.btnCancel.TabIndex = 5;
-            this.btnCancel.Text = "Cancel";
+            this.btnCancel.Text = "取消";
             this.btnCancel.UseVisualStyleBackColor = true;
             this.btnCancel.Click += new System.EventHandler(this.btnCancel_Click);
             // 
             // btnApply
             // 
             this.btnApply.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Right)));
-            this.btnApply.Location = new System.Drawing.Point(514, 450);
+            this.btnApply.Location = new System.Drawing.Point(514, 415);
             this.btnApply.Name = "btnApply";
-            this.btnApply.Size = new System.Drawing.Size(75, 23);
+            this.btnApply.Size = new System.Drawing.Size(75, 21);
             this.btnApply.TabIndex = 4;
-            this.btnApply.Text = "Apply";
+            this.btnApply.Text = "应用";
             this.btnApply.UseVisualStyleBackColor = true;
             this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
             // 
@@ -68,16 +68,16 @@ namespace DBDiff.Front
             | System.Windows.Forms.AnchorStyles.Right)));
             this.sqlOptionsFront1.Location = new System.Drawing.Point(3, 3);
             this.sqlOptionsFront1.Name = "sqlOptionsFront1";
-            this.sqlOptionsFront1.Size = new System.Drawing.Size(586, 440);
+            this.sqlOptionsFront1.Size = new System.Drawing.Size(586, 406);
             this.sqlOptionsFront1.TabIndex = 0;
             // 
             // OptionForm
             // 
             this.AcceptButton = this.btnApply;
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancel;
-            this.ClientSize = new System.Drawing.Size(592, 477);
+            this.ClientSize = new System.Drawing.Size(592, 440);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.btnApply);
             this.Controls.Add(this.sqlOptionsFront1);

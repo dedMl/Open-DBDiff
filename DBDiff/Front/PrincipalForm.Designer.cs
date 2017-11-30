@@ -1,4 +1,4 @@
-using System.ComponentModel;
+﻿using System.ComponentModel;
 using System.Windows.Forms;
 using ScintillaNET;
 
@@ -50,6 +50,7 @@ namespace DBDiff.Front
             this.panel5 = new System.Windows.Forms.Panel();
             this.panel4 = new System.Windows.Forms.Panel();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.panel1 = new System.Windows.Forms.Panel();
             this.txtSyncScript = new ScintillaNET.Scintilla();
@@ -75,7 +76,6 @@ namespace DBDiff.Front
             this.btnProject = new System.Windows.Forms.Button();
             this.btnCompareTableData = new System.Windows.Forms.Button();
             this.schemaTreeView1 = new DBDiff.Front.SchemaTreeView();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.tabControl1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabControl2.SuspendLayout();
@@ -86,6 +86,7 @@ namespace DBDiff.Front
             this.tabPage6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtDiff)).BeginInit();
             this.groupBox2.SuspendLayout();
+            this.groupBox1.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.txtSyncScript)).BeginInit();
@@ -93,7 +94,6 @@ namespace DBDiff.Front
             this.GroupDb.SuspendLayout();
             this.PanelGlobal.SuspendLayout();
             this.panel2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
             // lblMessage
@@ -131,7 +131,7 @@ namespace DBDiff.Front
             this.tabPage2.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage2.Size = new System.Drawing.Size(821, 427);
             this.tabPage2.TabIndex = 1;
-            this.tabPage2.Text = "Schema";
+            this.tabPage2.Text = "模式";
             this.tabPage2.UseVisualStyleBackColor = true;
             // 
             // tabControl2
@@ -156,7 +156,7 @@ namespace DBDiff.Front
             this.tabPage4.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage4.Size = new System.Drawing.Size(456, 352);
             this.tabPage4.TabIndex = 0;
-            this.tabPage4.Text = "New object";
+            this.tabPage4.Text = "源对象";
             this.tabPage4.UseVisualStyleBackColor = true;
             // 
             // txtNewObject
@@ -185,7 +185,7 @@ namespace DBDiff.Front
             this.tabPage5.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage5.Size = new System.Drawing.Size(456, 352);
             this.tabPage5.TabIndex = 1;
-            this.tabPage5.Text = "Old object";
+            this.tabPage5.Text = "目标对象";
             this.tabPage5.UseVisualStyleBackColor = true;
             // 
             // txtOldObject
@@ -213,7 +213,7 @@ namespace DBDiff.Front
             this.tabPage6.Name = "tabPage6";
             this.tabPage6.Size = new System.Drawing.Size(456, 352);
             this.tabPage6.TabIndex = 2;
-            this.tabPage6.Text = "Diff";
+            this.tabPage6.Text = "比较差异";
             this.tabPage6.UseVisualStyleBackColor = true;
             // 
             // txtDiff
@@ -243,35 +243,35 @@ namespace DBDiff.Front
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(367, 15);
+            this.label3.Location = new System.Drawing.Point(340, 15);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(71, 12);
+            this.label3.Size = new System.Drawing.Size(77, 12);
             this.label3.TabIndex = 5;
-            this.label3.Text = "Drop object";
+            this.label3.Text = "已删除的数据";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Location = new System.Drawing.Point(195, 15);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(131, 12);
+            this.label2.Size = new System.Drawing.Size(77, 12);
             this.label2.TabIndex = 4;
-            this.label2.Text = "Alter existing object";
+            this.label2.Text = "已改变的数据";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(45, 15);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(107, 12);
+            this.label1.Size = new System.Drawing.Size(77, 12);
             this.label1.TabIndex = 3;
-            this.label1.Text = "Create new object";
+            this.label1.Text = "新创建的数据";
             // 
             // panel5
             // 
             this.panel5.BackColor = System.Drawing.Color.Red;
             this.panel5.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel5.Location = new System.Drawing.Point(332, 11);
+            this.panel5.Location = new System.Drawing.Point(305, 11);
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(32, 19);
             this.panel5.TabIndex = 2;
@@ -294,6 +294,17 @@ namespace DBDiff.Front
             this.panel3.Size = new System.Drawing.Size(32, 19);
             this.panel3.TabIndex = 0;
             // 
+            // groupBox1
+            // 
+            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left)));
+            this.groupBox1.Controls.Add(this.schemaTreeView1);
+            this.groupBox1.Location = new System.Drawing.Point(6, 4);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(335, 418);
+            this.groupBox1.TabIndex = 1;
+            this.groupBox1.TabStop = false;
+            // 
             // tabPage1
             // 
             this.tabPage1.Controls.Add(this.panel1);
@@ -303,7 +314,7 @@ namespace DBDiff.Front
             this.tabPage1.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage1.Size = new System.Drawing.Size(821, 427);
             this.tabPage1.TabIndex = 0;
-            this.tabPage1.Text = "Synchronized script";
+            this.tabPage1.Text = "同步脚本";
             this.tabPage1.UseVisualStyleBackColor = true;
             // 
             // panel1
@@ -337,7 +348,7 @@ namespace DBDiff.Front
             this.tabPage3.Padding = new System.Windows.Forms.Padding(3);
             this.tabPage3.Size = new System.Drawing.Size(821, 427);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "Action report";
+            this.tabPage3.Text = "操作报告";
             this.tabPage3.UseVisualStyleBackColor = true;
             // 
             // textBox1
@@ -416,7 +427,7 @@ namespace DBDiff.Front
             this.btnOptions.Name = "btnOptions";
             this.btnOptions.Size = new System.Drawing.Size(95, 51);
             this.btnOptions.TabIndex = 5;
-            this.btnOptions.Text = "Options";
+            this.btnOptions.Text = "选项";
             this.btnOptions.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnOptions.UseVisualStyleBackColor = true;
             this.btnOptions.Click += new System.EventHandler(this.btnOptions_Click);
@@ -431,7 +442,7 @@ namespace DBDiff.Front
             this.btnCopy.Name = "btnCopy";
             this.btnCopy.Size = new System.Drawing.Size(95, 51);
             this.btnCopy.TabIndex = 7;
-            this.btnCopy.Text = "Copy script";
+            this.btnCopy.Text = "复制脚本";
             this.btnCopy.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCopy.UseVisualStyleBackColor = true;
             this.btnCopy.Click += new System.EventHandler(this.btnCopy_Click);
@@ -446,7 +457,7 @@ namespace DBDiff.Front
             this.btnUpdate.Name = "btnUpdate";
             this.btnUpdate.Size = new System.Drawing.Size(95, 51);
             this.btnUpdate.TabIndex = 8;
-            this.btnUpdate.Text = "Update selected";
+            this.btnUpdate.Text = "更新部分";
             this.btnUpdate.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUpdate.UseVisualStyleBackColor = true;
             this.btnUpdate.Click += new System.EventHandler(this.btnUpdate_Click);
@@ -461,7 +472,7 @@ namespace DBDiff.Front
             this.btnUpdateAll.Name = "btnUpdateAll";
             this.btnUpdateAll.Size = new System.Drawing.Size(95, 51);
             this.btnUpdateAll.TabIndex = 10;
-            this.btnUpdateAll.Text = "Update all";
+            this.btnUpdateAll.Text = "更新全部";
             this.btnUpdateAll.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnUpdateAll.UseVisualStyleBackColor = true;
             this.btnUpdateAll.Click += new System.EventHandler(this.btnUpdateAll_Click);
@@ -476,7 +487,7 @@ namespace DBDiff.Front
             this.btnSaveAs.Name = "btnSaveAs";
             this.btnSaveAs.Size = new System.Drawing.Size(95, 51);
             this.btnSaveAs.TabIndex = 6;
-            this.btnSaveAs.Text = "Save as";
+            this.btnSaveAs.Text = "另存为";
             this.btnSaveAs.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnSaveAs.UseVisualStyleBackColor = true;
             this.btnSaveAs.Click += new System.EventHandler(this.btnSaveAs_Click);
@@ -490,7 +501,7 @@ namespace DBDiff.Front
             this.btnCompare.Name = "btnCompare";
             this.btnCompare.Size = new System.Drawing.Size(95, 51);
             this.btnCompare.TabIndex = 4;
-            this.btnCompare.Text = "Compare";
+            this.btnCompare.Text = "比较";
             this.btnCompare.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCompare.UseVisualStyleBackColor = true;
             this.btnCompare.Click += new System.EventHandler(this.btnCompare_Click);
@@ -518,7 +529,7 @@ namespace DBDiff.Front
             this.btnNewProject.Name = "btnNewProject";
             this.btnNewProject.Size = new System.Drawing.Size(113, 30);
             this.btnNewProject.TabIndex = 15;
-            this.btnNewProject.Text = "New project";
+            this.btnNewProject.Text = "新建项目";
             this.btnNewProject.UseVisualStyleBackColor = false;
             this.btnNewProject.Click += new System.EventHandler(this.btnNewProject_Click);
             // 
@@ -558,7 +569,7 @@ namespace DBDiff.Front
             this.btnSaveProject.Name = "btnSaveProject";
             this.btnSaveProject.Size = new System.Drawing.Size(113, 30);
             this.btnSaveProject.TabIndex = 13;
-            this.btnSaveProject.Text = "Save project";
+            this.btnSaveProject.Text = "保存项目";
             this.btnSaveProject.UseVisualStyleBackColor = false;
             this.btnSaveProject.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -571,7 +582,7 @@ namespace DBDiff.Front
             this.btnProject.Name = "btnProject";
             this.btnProject.Size = new System.Drawing.Size(113, 30);
             this.btnProject.TabIndex = 12;
-            this.btnProject.Text = "Open project";
+            this.btnProject.Text = "打开项目";
             this.btnProject.UseVisualStyleBackColor = false;
             this.btnProject.Click += new System.EventHandler(this.btnProject_Click);
             // 
@@ -585,7 +596,7 @@ namespace DBDiff.Front
             this.btnCompareTableData.Name = "btnCompareTableData";
             this.btnCompareTableData.Size = new System.Drawing.Size(95, 51);
             this.btnCompareTableData.TabIndex = 9;
-            this.btnCompareTableData.Text = "Compare data";
+            this.btnCompareTableData.Text = "比较数据";
             this.btnCompareTableData.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnCompareTableData.UseVisualStyleBackColor = true;
             this.btnCompareTableData.Click += new System.EventHandler(this.btnCompareTableData_Click);
@@ -604,17 +615,6 @@ namespace DBDiff.Front
             this.schemaTreeView1.ShowUnchangedItems = true;
             this.schemaTreeView1.Size = new System.Drawing.Size(322, 403);
             this.schemaTreeView1.TabIndex = 0;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left)));
-            this.groupBox1.Controls.Add(this.schemaTreeView1);
-            this.groupBox1.Location = new System.Drawing.Point(6, 4);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(335, 418);
-            this.groupBox1.TabIndex = 1;
-            this.groupBox1.TabStop = false;
             // 
             // PrincipalForm
             // 
@@ -649,6 +649,7 @@ namespace DBDiff.Front
             ((System.ComponentModel.ISupportInitialize)(this.txtDiff)).EndInit();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage1.PerformLayout();
             this.panel1.ResumeLayout(false);
@@ -659,7 +660,6 @@ namespace DBDiff.Front
             this.GroupDb.PerformLayout();
             this.PanelGlobal.ResumeLayout(false);
             this.panel2.ResumeLayout(false);
-            this.groupBox1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }

@@ -85,9 +85,9 @@ namespace DBDiff.Front
             this.chkOld.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkOld.Location = new System.Drawing.Point(148, 25);
             this.chkOld.Name = "chkOld";
-            this.chkOld.Size = new System.Drawing.Size(132, 16);
+            this.chkOld.Size = new System.Drawing.Size(108, 16);
             this.chkOld.TabIndex = 1;
-            this.chkOld.Text = "Show missing items";
+            this.chkOld.Text = "显示缺少的项目";
             this.chkOld.UseVisualStyleBackColor = true;
             this.chkOld.CheckedChanged += new System.EventHandler(this.FilterCheckbox_CheckedChanged);
             // 
@@ -98,9 +98,9 @@ namespace DBDiff.Front
             this.chkNew.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkNew.Location = new System.Drawing.Point(4, 25);
             this.chkNew.Name = "chkNew";
-            this.chkNew.Size = new System.Drawing.Size(108, 16);
+            this.chkNew.Size = new System.Drawing.Size(96, 16);
             this.chkNew.TabIndex = 2;
-            this.chkNew.Text = "Show new items";
+            this.chkNew.Text = "显示新的项目";
             this.chkNew.UseVisualStyleBackColor = true;
             this.chkNew.CheckedChanged += new System.EventHandler(this.FilterCheckbox_CheckedChanged);
             // 
@@ -111,9 +111,9 @@ namespace DBDiff.Front
             this.chkDifferent.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkDifferent.Location = new System.Drawing.Point(148, 4);
             this.chkDifferent.Name = "chkDifferent";
-            this.chkDifferent.Size = new System.Drawing.Size(132, 16);
+            this.chkDifferent.Size = new System.Drawing.Size(120, 16);
             this.chkDifferent.TabIndex = 3;
-            this.chkDifferent.Text = "Show changed items";
+            this.chkDifferent.Text = "显示有更新的项目";
             this.chkDifferent.UseVisualStyleBackColor = true;
             this.chkDifferent.CheckedChanged += new System.EventHandler(this.FilterCheckbox_CheckedChanged);
             // 
@@ -124,9 +124,9 @@ namespace DBDiff.Front
             this.chkShowUnchangedItems.CheckState = System.Windows.Forms.CheckState.Checked;
             this.chkShowUnchangedItems.Location = new System.Drawing.Point(3, 4);
             this.chkShowUnchangedItems.Name = "chkShowUnchangedItems";
-            this.chkShowUnchangedItems.Size = new System.Drawing.Size(144, 16);
+            this.chkShowUnchangedItems.Size = new System.Drawing.Size(132, 16);
             this.chkShowUnchangedItems.TabIndex = 4;
-            this.chkShowUnchangedItems.Text = "Show unchanged items";
+            this.chkShowUnchangedItems.Text = "显示没有变化的项目";
             this.chkShowUnchangedItems.UseVisualStyleBackColor = true;
             this.chkShowUnchangedItems.CheckedChanged += new System.EventHandler(this.FilterCheckbox_CheckedChanged);
             // 

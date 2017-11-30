@@ -1,4 +1,4 @@
-using DBDiff.Schema;
+﻿using DBDiff.Schema;
 using DBDiff.Schema.Misc;
 using DBDiff.Schema.Model;
 using DBDiff.Schema.SQLServer.Generates.Front;
