@@ -149,11 +149,14 @@ namespace DBDiff.Front
             this.busy = true;
             treeView1.BeginUpdate();
             treeView1.Nodes.Clear();
-            TreeNode databaseNode = treeView1.Nodes.Add("root", databaseSource.Name);
-            ReadProperties(databaseSource.GetType(), databaseNode.Nodes, databaseSource);
-            treeView1.Sort();
-            databaseNode.ImageKey = "Database";
-            databaseNode.Expand();
+            if (databaseSource != null)
+            {
+                TreeNode databaseNode = treeView1.Nodes.Add("root", databaseSource.Name);
+                ReadProperties(databaseSource.GetType(), databaseNode.Nodes, databaseSource);
+                treeView1.Sort();
+                databaseNode.ImageKey = "Database";
+                databaseNode.Expand();
+            }
 
             if (currentlySelectedNode != null)
             {

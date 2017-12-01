@@ -426,7 +426,7 @@ Clicking 'OK' will result in the following:
                 (AnchorStyles)((int)AnchorStyles.Bottom + (int)AnchorStyles.Left + (int)AnchorStyles.Right);
 
             mySqlConnectFront1.TabIndex = 10;
-            mySqlConnectFront1.Text = "Source Database:";
+            mySqlConnectFront1.Text = "源数据库:";
             mySqlConnectFront2.Location = new Point(1, 1);
             mySqlConnectFront2.Name = "mySqlConnectFront2";
             mySqlConnectFront2.Anchor =
@@ -434,7 +434,7 @@ Clicking 'OK' will result in the following:
             mySqlConnectFront2.TabIndex = 10;
             mySqlConnectFront1.Visible = true;
             mySqlConnectFront2.Visible = true;
-            mySqlConnectFront2.Text = "Destination Database:";
+            mySqlConnectFront2.Text = "目标数据库:";
             ((SqlServerConnectFront)mySqlConnectFront1).UserName = "sa";
             ((SqlServerConnectFront)mySqlConnectFront1).Password = "";
             ((SqlServerConnectFront)mySqlConnectFront1).ServerName = "(local)";

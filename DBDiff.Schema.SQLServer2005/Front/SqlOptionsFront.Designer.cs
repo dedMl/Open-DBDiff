@@ -170,7 +170,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkFullTextPath.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkFullTextPath.Location = new System.Drawing.Point(28, 41);
             this.chkFullTextPath.Name = "chkFullTextPath";
-            this.chkFullTextPath.Size = new System.Drawing.Size(96, 16);
+            this.chkFullTextPath.Size = new System.Drawing.Size(72, 16);
             this.chkFullTextPath.TabIndex = 36;
             this.chkFullTextPath.Text = "包含路径";
             this.chkFullTextPath.UseVisualStyleBackColor = true;
@@ -183,7 +183,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkIndexFilter.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkIndexFilter.Location = new System.Drawing.Point(30, 198);
             this.chkIndexFilter.Name = "chkIndexFilter";
-            this.chkIndexFilter.Size = new System.Drawing.Size(108, 16);
+            this.chkIndexFilter.Size = new System.Drawing.Size(60, 16);
             this.chkIndexFilter.TabIndex = 9;
             this.chkIndexFilter.Text = "过滤列";
             this.chkIndexFilter.UseVisualStyleBackColor = true;
@@ -196,7 +196,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkConstraintsCheck.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkConstraintsCheck.Location = new System.Drawing.Point(30, 286);
             this.chkConstraintsCheck.Name = "chkConstraintsCheck";
-            this.chkConstraintsCheck.Size = new System.Drawing.Size(54, 16);
+            this.chkConstraintsCheck.Size = new System.Drawing.Size(48, 16);
             this.chkConstraintsCheck.TabIndex = 14;
             this.chkConstraintsCheck.Text = "检查";
             this.chkConstraintsCheck.UseVisualStyleBackColor = true;
@@ -209,7 +209,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkConstraintsUK.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkConstraintsUK.Location = new System.Drawing.Point(30, 269);
             this.chkConstraintsUK.Name = "chkConstraintsUK";
-            this.chkConstraintsUK.Size = new System.Drawing.Size(84, 16);
+            this.chkConstraintsUK.Size = new System.Drawing.Size(60, 16);
             this.chkConstraintsUK.TabIndex = 13;
             this.chkConstraintsUK.Text = "唯一键";
             this.chkConstraintsUK.UseVisualStyleBackColor = true;
@@ -222,7 +222,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkConstraintsFK.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkConstraintsFK.Location = new System.Drawing.Point(30, 251);
             this.chkConstraintsFK.Name = "chkConstraintsFK";
-            this.chkConstraintsFK.Size = new System.Drawing.Size(90, 16);
+            this.chkConstraintsFK.Size = new System.Drawing.Size(60, 16);
             this.chkConstraintsFK.TabIndex = 12;
             this.chkConstraintsFK.Text = "外部键";
             this.chkConstraintsFK.UseVisualStyleBackColor = true;
@@ -235,7 +235,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkConstraintsPK.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkConstraintsPK.Location = new System.Drawing.Point(30, 234);
             this.chkConstraintsPK.Name = "chkConstraintsPK";
-            this.chkConstraintsPK.Size = new System.Drawing.Size(90, 16);
+            this.chkConstraintsPK.Size = new System.Drawing.Size(48, 16);
             this.chkConstraintsPK.TabIndex = 11;
             this.chkConstraintsPK.Text = "主键";
             this.chkConstraintsPK.UseVisualStyleBackColor = true;
@@ -248,7 +248,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.checkBox5.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBox5.Location = new System.Drawing.Point(13, 186);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(120, 16);
+            this.checkBox5.Size = new System.Drawing.Size(72, 16);
             this.checkBox5.TabIndex = 27;
             this.checkBox5.Text = "区分模式";
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -261,7 +261,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.checkPartitionFunction.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkPartitionFunction.Location = new System.Drawing.Point(13, 166);
             this.checkPartitionFunction.Name = "checkPartitionFunction";
-            this.checkPartitionFunction.Size = new System.Drawing.Size(132, 16);
+            this.checkPartitionFunction.Size = new System.Drawing.Size(72, 16);
             this.checkPartitionFunction.TabIndex = 26;
             this.checkPartitionFunction.Text = "区分函数";
             this.checkPartitionFunction.UseVisualStyleBackColor = true;
@@ -274,7 +274,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.checkBox4.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBox4.Location = new System.Drawing.Point(28, 25);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(108, 16);
+            this.checkBox4.Size = new System.Drawing.Size(72, 16);
             this.checkBox4.TabIndex = 35;
             this.checkBox4.Text = "CLR 总量";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -287,7 +287,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompCLRUDT.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompCLRUDT.Location = new System.Drawing.Point(28, 78);
             this.chkCompCLRUDT.Name = "chkCompCLRUDT";
-            this.chkCompCLRUDT.Size = new System.Drawing.Size(138, 16);
+            this.chkCompCLRUDT.Size = new System.Drawing.Size(120, 16);
             this.chkCompCLRUDT.TabIndex = 34;
             this.chkCompCLRUDT.Text = "CLR 用户数据类型";
             this.chkCompCLRUDT.UseVisualStyleBackColor = true;
@@ -300,7 +300,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompCLRFunctions.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompCLRFunctions.Location = new System.Drawing.Point(28, 42);
             this.chkCompCLRFunctions.Name = "chkCompCLRFunctions";
-            this.chkCompCLRFunctions.Size = new System.Drawing.Size(102, 16);
+            this.chkCompCLRFunctions.Size = new System.Drawing.Size(72, 16);
             this.chkCompCLRFunctions.TabIndex = 33;
             this.chkCompCLRFunctions.Text = "CLR 功能";
             this.chkCompCLRFunctions.UseVisualStyleBackColor = true;
@@ -313,7 +313,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompCLRTrigger.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompCLRTrigger.Location = new System.Drawing.Point(28, 95);
             this.chkCompCLRTrigger.Name = "chkCompCLRTrigger";
-            this.chkCompCLRTrigger.Size = new System.Drawing.Size(96, 16);
+            this.chkCompCLRTrigger.Size = new System.Drawing.Size(84, 16);
             this.chkCompCLRTrigger.TabIndex = 32;
             this.chkCompCLRTrigger.Text = "CLR 触发器";
             this.chkCompCLRTrigger.UseVisualStyleBackColor = true;
@@ -326,7 +326,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompCLRStore.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompCLRStore.Location = new System.Drawing.Point(28, 60);
             this.chkCompCLRStore.Name = "chkCompCLRStore";
-            this.chkCompCLRStore.Size = new System.Drawing.Size(150, 16);
+            this.chkCompCLRStore.Size = new System.Drawing.Size(96, 16);
             this.chkCompCLRStore.TabIndex = 31;
             this.chkCompCLRStore.Text = "CLR 存储过程";
             this.chkCompCLRStore.UseVisualStyleBackColor = true;
@@ -339,7 +339,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkIndexRowLock.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkIndexRowLock.Location = new System.Drawing.Point(30, 146);
             this.chkIndexRowLock.Name = "chkIndexRowLock";
-            this.chkIndexRowLock.Size = new System.Drawing.Size(78, 16);
+            this.chkIndexRowLock.Size = new System.Drawing.Size(48, 16);
             this.chkIndexRowLock.TabIndex = 6;
             this.chkIndexRowLock.Text = "行锁";
             this.chkIndexRowLock.UseVisualStyleBackColor = true;
@@ -352,7 +352,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkFullText.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkFullText.Location = new System.Drawing.Point(10, 23);
             this.chkFullText.Name = "chkFullText";
-            this.chkFullText.Size = new System.Drawing.Size(78, 16);
+            this.chkFullText.Size = new System.Drawing.Size(48, 16);
             this.chkFullText.TabIndex = 29;
             this.chkFullText.Text = "全文";
             this.chkFullText.UseVisualStyleBackColor = true;
@@ -366,7 +366,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompRules.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompRules.Location = new System.Drawing.Point(13, 145);
             this.chkCompRules.Name = "chkCompRules";
-            this.chkCompRules.Size = new System.Drawing.Size(54, 16);
+            this.chkCompRules.Size = new System.Drawing.Size(48, 16);
             this.chkCompRules.TabIndex = 22;
             this.chkCompRules.Text = "规则";
             this.chkCompRules.UseVisualStyleBackColor = true;
@@ -379,7 +379,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompRoles.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompRoles.Location = new System.Drawing.Point(10, 76);
             this.chkCompRoles.Name = "chkCompRoles";
-            this.chkCompRoles.Size = new System.Drawing.Size(54, 16);
+            this.chkCompRoles.Size = new System.Drawing.Size(48, 16);
             this.chkCompRoles.TabIndex = 28;
             this.chkCompRoles.Text = "角色";
             this.chkCompRoles.UseVisualStyleBackColor = true;
@@ -392,7 +392,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompUsers.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompUsers.Location = new System.Drawing.Point(10, 58);
             this.chkCompUsers.Name = "chkCompUsers";
-            this.chkCompUsers.Size = new System.Drawing.Size(54, 16);
+            this.chkCompUsers.Size = new System.Drawing.Size(48, 16);
             this.chkCompUsers.TabIndex = 23;
             this.chkCompUsers.Text = "用户";
             this.chkCompUsers.UseVisualStyleBackColor = true;
@@ -405,7 +405,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkIndexIncludeColumns.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkIndexIncludeColumns.Location = new System.Drawing.Point(30, 181);
             this.chkIndexIncludeColumns.Name = "chkIndexIncludeColumns";
-            this.chkIndexIncludeColumns.Size = new System.Drawing.Size(114, 16);
+            this.chkIndexIncludeColumns.Size = new System.Drawing.Size(60, 16);
             this.chkIndexIncludeColumns.TabIndex = 8;
             this.chkIndexIncludeColumns.Text = "包含列";
             this.chkIndexIncludeColumns.UseVisualStyleBackColor = true;
@@ -418,7 +418,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompTriggersDDL.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompTriggersDDL.Location = new System.Drawing.Point(13, 85);
             this.chkCompTriggersDDL.Name = "chkCompTriggersDDL";
-            this.chkCompTriggersDDL.Size = new System.Drawing.Size(96, 16);
+            this.chkCompTriggersDDL.Size = new System.Drawing.Size(84, 16);
             this.chkCompTriggersDDL.TabIndex = 19;
             this.chkCompTriggersDDL.Text = "DDL 触发器";
             this.chkCompTriggersDDL.UseVisualStyleBackColor = true;
@@ -431,7 +431,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkIndexFillFactor.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkIndexFillFactor.Location = new System.Drawing.Point(30, 163);
             this.chkIndexFillFactor.Name = "chkIndexFillFactor";
-            this.chkIndexFillFactor.Size = new System.Drawing.Size(90, 16);
+            this.chkIndexFillFactor.Size = new System.Drawing.Size(72, 16);
             this.chkIndexFillFactor.TabIndex = 7;
             this.chkIndexFillFactor.Text = "填充因子";
             this.chkIndexFillFactor.UseVisualStyleBackColor = true;
@@ -444,7 +444,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkTablesColumnOrder.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkTablesColumnOrder.Location = new System.Drawing.Point(30, 41);
             this.chkTablesColumnOrder.Name = "chkTablesColumnOrder";
-            this.chkTablesColumnOrder.Size = new System.Drawing.Size(96, 16);
+            this.chkTablesColumnOrder.Size = new System.Drawing.Size(60, 16);
             this.chkTablesColumnOrder.TabIndex = 3;
             this.chkTablesColumnOrder.Text = "列顺序";
             this.chkTablesColumnOrder.UseVisualStyleBackColor = true;
@@ -458,7 +458,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompAssemblys.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompAssemblys.Location = new System.Drawing.Point(10, 7);
             this.chkCompAssemblys.Name = "chkCompAssemblys";
-            this.chkCompAssemblys.Size = new System.Drawing.Size(88, 17);
+            this.chkCompAssemblys.Size = new System.Drawing.Size(65, 17);
             this.chkCompAssemblys.TabIndex = 30;
             this.chkCompAssemblys.Text = "程序集";
             this.chkCompAssemblys.UseVisualStyleBackColor = true;
@@ -472,7 +472,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkFileGroups.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkFileGroups.Location = new System.Drawing.Point(10, 6);
             this.chkFileGroups.Name = "chkFileGroups";
-            this.chkFileGroups.Size = new System.Drawing.Size(90, 16);
+            this.chkFileGroups.Size = new System.Drawing.Size(60, 16);
             this.chkFileGroups.TabIndex = 25;
             this.chkFileGroups.Text = "文件组";
             this.chkFileGroups.UseVisualStyleBackColor = true;
@@ -485,7 +485,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkTablesColumnIdentity.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkTablesColumnIdentity.Location = new System.Drawing.Point(30, 58);
             this.chkTablesColumnIdentity.Name = "chkTablesColumnIdentity";
-            this.chkTablesColumnIdentity.Size = new System.Drawing.Size(120, 16);
+            this.chkTablesColumnIdentity.Size = new System.Drawing.Size(72, 16);
             this.chkTablesColumnIdentity.TabIndex = 2;
             this.chkTablesColumnIdentity.Text = "身份选择";
             this.chkTablesColumnIdentity.UseVisualStyleBackColor = true;
@@ -498,7 +498,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkTablesColumnCollation.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkTablesColumnCollation.Location = new System.Drawing.Point(30, 23);
             this.chkTablesColumnCollation.Name = "chkTablesColumnCollation";
-            this.chkTablesColumnCollation.Size = new System.Drawing.Size(120, 16);
+            this.chkTablesColumnCollation.Size = new System.Drawing.Size(60, 16);
             this.chkTablesColumnCollation.TabIndex = 1;
             this.chkTablesColumnCollation.Text = "列排序";
             this.chkTablesColumnCollation.UseVisualStyleBackColor = true;
@@ -512,7 +512,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkConstraints.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkConstraints.Location = new System.Drawing.Point(10, 216);
             this.chkConstraints.Name = "chkConstraints";
-            this.chkConstraints.Size = new System.Drawing.Size(89, 17);
+            this.chkConstraints.Size = new System.Drawing.Size(52, 17);
             this.chkConstraints.TabIndex = 10;
             this.chkConstraints.Text = "约束";
             this.chkConstraints.UseVisualStyleBackColor = true;
@@ -526,7 +526,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompSchemas.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompSchemas.Location = new System.Drawing.Point(10, 93);
             this.chkCompSchemas.Name = "chkCompSchemas";
-            this.chkCompSchemas.Size = new System.Drawing.Size(66, 16);
+            this.chkCompSchemas.Size = new System.Drawing.Size(48, 16);
             this.chkCompSchemas.TabIndex = 24;
             this.chkCompSchemas.Text = "模式";
             this.chkCompSchemas.UseVisualStyleBackColor = true;
@@ -539,7 +539,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompUDT.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompUDT.Location = new System.Drawing.Point(13, 105);
             this.chkCompUDT.Name = "chkCompUDT";
-            this.chkCompUDT.Size = new System.Drawing.Size(114, 16);
+            this.chkCompUDT.Size = new System.Drawing.Size(96, 16);
             this.chkCompUDT.TabIndex = 20;
             this.chkCompUDT.Text = "用户数据类型";
             this.chkCompUDT.UseVisualStyleBackColor = true;
@@ -553,7 +553,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkIndex.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkIndex.Location = new System.Drawing.Point(10, 128);
             this.chkIndex.Name = "chkIndex";
-            this.chkIndex.Size = new System.Drawing.Size(70, 17);
+            this.chkIndex.Size = new System.Drawing.Size(52, 17);
             this.chkIndex.TabIndex = 5;
             this.chkIndex.Text = "索引";
             this.chkIndex.UseVisualStyleBackColor = true;
@@ -567,7 +567,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkTableOption.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkTableOption.Location = new System.Drawing.Point(30, 76);
             this.chkTableOption.Name = "chkTableOption";
-            this.chkTableOption.Size = new System.Drawing.Size(102, 16);
+            this.chkTableOption.Size = new System.Drawing.Size(60, 16);
             this.chkTableOption.TabIndex = 4;
             this.chkTableOption.Text = "表选项";
             this.chkTableOption.UseVisualStyleBackColor = true;
@@ -580,7 +580,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompXMLSchemas.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompXMLSchemas.Location = new System.Drawing.Point(13, 126);
             this.chkCompXMLSchemas.Name = "chkCompXMLSchemas";
-            this.chkCompXMLSchemas.Size = new System.Drawing.Size(90, 16);
+            this.chkCompXMLSchemas.Size = new System.Drawing.Size(72, 16);
             this.chkCompXMLSchemas.TabIndex = 21;
             this.chkCompXMLSchemas.Text = "XML 模式";
             this.chkCompXMLSchemas.UseVisualStyleBackColor = true;
@@ -593,7 +593,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompFunciones.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompFunciones.Location = new System.Drawing.Point(13, 6);
             this.chkCompFunciones.Name = "chkCompFunciones";
-            this.chkCompFunciones.Size = new System.Drawing.Size(78, 16);
+            this.chkCompFunciones.Size = new System.Drawing.Size(48, 16);
             this.chkCompFunciones.TabIndex = 15;
             this.chkCompFunciones.Text = "功能";
             this.chkCompFunciones.UseVisualStyleBackColor = true;
@@ -606,7 +606,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompStoredProcedure.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompStoredProcedure.Location = new System.Drawing.Point(13, 24);
             this.chkCompStoredProcedure.Name = "chkCompStoredProcedure";
-            this.chkCompStoredProcedure.Size = new System.Drawing.Size(126, 16);
+            this.chkCompStoredProcedure.Size = new System.Drawing.Size(72, 16);
             this.chkCompStoredProcedure.TabIndex = 16;
             this.chkCompStoredProcedure.Text = "存储过程";
             this.chkCompStoredProcedure.UseVisualStyleBackColor = true;
@@ -620,7 +620,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkTables.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkTables.Location = new System.Drawing.Point(10, 6);
             this.chkTables.Name = "chkTables";
-            this.chkTables.Size = new System.Drawing.Size(64, 17);
+            this.chkTables.Size = new System.Drawing.Size(39, 17);
             this.chkTables.TabIndex = 0;
             this.chkTables.Text = "表";
             this.chkTables.UseVisualStyleBackColor = true;
@@ -634,7 +634,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompTriggers.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompTriggers.Location = new System.Drawing.Point(13, 65);
             this.chkCompTriggers.Name = "chkCompTriggers";
-            this.chkCompTriggers.Size = new System.Drawing.Size(72, 17);
+            this.chkCompTriggers.Size = new System.Drawing.Size(60, 16);
             this.chkCompTriggers.TabIndex = 18;
             this.chkCompTriggers.Text = "触发器";
             this.chkCompTriggers.UseVisualStyleBackColor = true;
@@ -647,7 +647,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompVistas.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompVistas.Location = new System.Drawing.Point(13, 43);
             this.chkCompVistas.Name = "chkCompVistas";
-            this.chkCompVistas.Size = new System.Drawing.Size(54, 17);
+            this.chkCompVistas.Size = new System.Drawing.Size(48, 16);
             this.chkCompVistas.TabIndex = 17;
             this.chkCompVistas.Text = "视图";
             this.chkCompVistas.UseVisualStyleBackColor = true;
@@ -660,7 +660,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkCompExtendedProperties.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkCompExtendedProperties.Location = new System.Drawing.Point(177, 7);
             this.chkCompExtendedProperties.Name = "chkCompExtendedProperties";
-            this.chkCompExtendedProperties.Size = new System.Drawing.Size(121, 17);
+            this.chkCompExtendedProperties.Size = new System.Drawing.Size(72, 16);
             this.chkCompExtendedProperties.TabIndex = 1;
             this.chkCompExtendedProperties.Text = "扩展属性";
             this.chkCompExtendedProperties.UseVisualStyleBackColor = true;
@@ -668,7 +668,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // txtXML
             // 
             this.txtXML.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtXML.Location = new System.Drawing.Point(16, 237);
+            this.txtXML.Location = new System.Drawing.Point(13, 287);
             this.txtXML.Name = "txtXML";
             this.txtXML.Size = new System.Drawing.Size(388, 21);
             this.txtXML.TabIndex = 18;
@@ -677,7 +677,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // 
             this.label10.AutoSize = true;
             this.label10.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label10.Location = new System.Drawing.Point(13, 222);
+            this.label10.Location = new System.Drawing.Point(13, 272);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(23, 12);
             this.label10.TabIndex = 17;
@@ -686,7 +686,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // txtTime
             // 
             this.txtTime.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtTime.Location = new System.Drawing.Point(268, 107);
+            this.txtTime.Location = new System.Drawing.Point(13, 149);
             this.txtTime.Name = "txtTime";
             this.txtTime.Size = new System.Drawing.Size(237, 21);
             this.txtTime.TabIndex = 16;
@@ -695,7 +695,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // 
             this.label9.AutoSize = true;
             this.label9.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label9.Location = new System.Drawing.Point(331, 92);
+            this.label9.Location = new System.Drawing.Point(13, 134);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(29, 12);
             this.label9.TabIndex = 15;
@@ -704,7 +704,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // txtVariant
             // 
             this.txtVariant.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtVariant.Location = new System.Drawing.Point(16, 193);
+            this.txtVariant.Location = new System.Drawing.Point(13, 243);
             this.txtVariant.Name = "txtVariant";
             this.txtVariant.Size = new System.Drawing.Size(388, 21);
             this.txtVariant.TabIndex = 14;
@@ -713,7 +713,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label8.Location = new System.Drawing.Point(13, 178);
+            this.label8.Location = new System.Drawing.Point(13, 228);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(71, 12);
             this.label8.TabIndex = 13;
@@ -740,7 +740,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // txtBlob
             // 
             this.txtBlob.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtBlob.Location = new System.Drawing.Point(16, 151);
+            this.txtBlob.Location = new System.Drawing.Point(13, 201);
             this.txtBlob.Name = "txtBlob";
             this.txtBlob.Size = new System.Drawing.Size(388, 21);
             this.txtBlob.TabIndex = 10;
@@ -749,7 +749,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // 
             this.label6.AutoSize = true;
             this.label6.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.label6.Location = new System.Drawing.Point(13, 137);
+            this.label6.Location = new System.Drawing.Point(13, 187);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(245, 12);
             this.label6.TabIndex = 9;
@@ -758,7 +758,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // txtDate
             // 
             this.txtDate.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtDate.Location = new System.Drawing.Point(16, 107);
+            this.txtDate.Location = new System.Drawing.Point(13, 107);
             this.txtDate.Name = "txtDate";
             this.txtDate.Size = new System.Drawing.Size(237, 21);
             this.txtDate.TabIndex = 8;
@@ -776,7 +776,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // txtText
             // 
             this.txtText.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtText.Location = new System.Drawing.Point(16, 63);
+            this.txtText.Location = new System.Drawing.Point(13, 63);
             this.txtText.Name = "txtText";
             this.txtText.Size = new System.Drawing.Size(237, 21);
             this.txtText.TabIndex = 6;
@@ -812,7 +812,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             // txtDefaultInteger
             // 
             this.txtDefaultInteger.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.txtDefaultInteger.Location = new System.Drawing.Point(16, 23);
+            this.txtDefaultInteger.Location = new System.Drawing.Point(13, 23);
             this.txtDefaultInteger.Name = "txtDefaultInteger";
             this.txtDefaultInteger.Size = new System.Drawing.Size(237, 21);
             this.txtDefaultInteger.TabIndex = 2;
@@ -873,7 +873,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkIgnoreNotForReplication.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkIgnoreNotForReplication.Location = new System.Drawing.Point(12, 6);
             this.chkIgnoreNotForReplication.Name = "chkIgnoreNotForReplication";
-            this.chkIgnoreNotForReplication.Size = new System.Drawing.Size(180, 16);
+            this.chkIgnoreNotForReplication.Size = new System.Drawing.Size(84, 16);
             this.chkIgnoreNotForReplication.TabIndex = 0;
             this.chkIgnoreNotForReplication.Text = "忽略不复制";
             this.chkIgnoreNotForReplication.UseVisualStyleBackColor = true;
@@ -930,7 +930,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.checkBox1.ForeColor = System.Drawing.SystemColors.ControlText;
             this.checkBox1.Location = new System.Drawing.Point(10, 111);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(90, 16);
+            this.checkBox1.Size = new System.Drawing.Size(48, 16);
             this.checkBox1.TabIndex = 37;
             this.checkBox1.Text = "权限";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -980,7 +980,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkTableLockEscalation.ForeColor = System.Drawing.SystemColors.ControlText;
             this.chkTableLockEscalation.Location = new System.Drawing.Point(30, 93);
             this.chkTableLockEscalation.Name = "chkTableLockEscalation";
-            this.chkTableLockEscalation.Size = new System.Drawing.Size(114, 16);
+            this.chkTableLockEscalation.Size = new System.Drawing.Size(60, 16);
             this.chkTableLockEscalation.TabIndex = 15;
             this.chkTableLockEscalation.Text = "锁升级";
             this.chkTableLockEscalation.UseVisualStyleBackColor = true;
@@ -999,7 +999,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.Location = new System.Drawing.Point(4, 4);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(113, 13);
+            this.label11.Size = new System.Drawing.Size(98, 13);
             this.label11.TabIndex = 3;
             this.label11.Text = "根据类型过滤项";
             // 
@@ -1117,7 +1117,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(4, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(136, 13);
+            this.label1.Size = new System.Drawing.Size(98, 13);
             this.label1.TabIndex = 3;
             this.label1.Text = "排除项目的名字";
             // 
@@ -1198,7 +1198,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.groupBox4.Size = new System.Drawing.Size(525, 61);
             this.groupBox4.TabIndex = 4;
             this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "When rebuilding a view with schema binding";
+            this.groupBox4.Text = "在绑定使用模式重构视图时";
             // 
             // optScriptSchemaBindingAlter
             // 
@@ -1207,10 +1207,10 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.optScriptSchemaBindingAlter.ForeColor = System.Drawing.SystemColors.ControlText;
             this.optScriptSchemaBindingAlter.Location = new System.Drawing.Point(18, 39);
             this.optScriptSchemaBindingAlter.Name = "optScriptSchemaBindingAlter";
-            this.optScriptSchemaBindingAlter.Size = new System.Drawing.Size(131, 16);
+            this.optScriptSchemaBindingAlter.Size = new System.Drawing.Size(107, 16);
             this.optScriptSchemaBindingAlter.TabIndex = 1;
             this.optScriptSchemaBindingAlter.TabStop = true;
-            this.optScriptSchemaBindingAlter.Text = "ALTER object twice";
+            this.optScriptSchemaBindingAlter.Text = "ALTER 对象两次";
             this.optScriptSchemaBindingAlter.UseVisualStyleBackColor = true;
             // 
             // optScriptSchemaDrop
@@ -1219,10 +1219,10 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.optScriptSchemaDrop.ForeColor = System.Drawing.SystemColors.ControlText;
             this.optScriptSchemaDrop.Location = new System.Drawing.Point(18, 18);
             this.optScriptSchemaDrop.Name = "optScriptSchemaDrop";
-            this.optScriptSchemaDrop.Size = new System.Drawing.Size(131, 16);
+            this.optScriptSchemaDrop.Size = new System.Drawing.Size(107, 16);
             this.optScriptSchemaDrop.TabIndex = 0;
             this.optScriptSchemaDrop.TabStop = true;
-            this.optScriptSchemaDrop.Text = "DROP/CREATE object";
+            this.optScriptSchemaDrop.Text = "删除/创建 对象";
             this.optScriptSchemaDrop.UseVisualStyleBackColor = true;
             // 
             // gradientPanel16
@@ -1239,7 +1239,7 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label15.Location = new System.Drawing.Point(4, 4);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(144, 13);
+            this.label15.Size = new System.Drawing.Size(85, 13);
             this.label15.TabIndex = 3;
             this.label15.Text = "高级脚本选项";
             // 
@@ -1272,9 +1272,9 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkIgnoreWhiteSpaceInCode.AutoSize = true;
             this.chkIgnoreWhiteSpaceInCode.Location = new System.Drawing.Point(7, 6);
             this.chkIgnoreWhiteSpaceInCode.Name = "chkIgnoreWhiteSpaceInCode";
-            this.chkIgnoreWhiteSpaceInCode.Size = new System.Drawing.Size(408, 16);
+            this.chkIgnoreWhiteSpaceInCode.Size = new System.Drawing.Size(228, 16);
             this.chkIgnoreWhiteSpaceInCode.TabIndex = 2;
-            this.chkIgnoreWhiteSpaceInCode.Text = "Ignore white spaces in stored procedures, triggers and functions";
+            this.chkIgnoreWhiteSpaceInCode.Text = "忽略存储过程，触发器和函数中的空格";
             this.chkIgnoreWhiteSpaceInCode.UseVisualStyleBackColor = true;
             // 
             // gradientPanel14
@@ -1291,9 +1291,9 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.label14.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label14.Location = new System.Drawing.Point(4, 4);
             this.label14.Name = "label14";
-            this.label14.Size = new System.Drawing.Size(247, 13);
+            this.label14.Size = new System.Drawing.Size(150, 13);
             this.label14.TabIndex = 3;
-            this.label14.Text = "Procedures, functions and triggers options";
+            this.label14.Text = "程序，功能和触发器选项";
             // 
             // gradientPanel13
             // 
@@ -1309,9 +1309,9 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.rdoCaseSensityInCode.AutoSize = true;
             this.rdoCaseSensityInCode.Location = new System.Drawing.Point(13, 33);
             this.rdoCaseSensityInCode.Name = "rdoCaseSensityInCode";
-            this.rdoCaseSensityInCode.Size = new System.Drawing.Size(107, 16);
+            this.rdoCaseSensityInCode.Size = new System.Drawing.Size(83, 16);
             this.rdoCaseSensityInCode.TabIndex = 2;
-            this.rdoCaseSensityInCode.Text = "Case sensitive";
+            this.rdoCaseSensityInCode.Text = "区分大小写";
             this.rdoCaseSensityInCode.UseVisualStyleBackColor = true;
             // 
             // rdoCaseInsensityInCode
@@ -1320,10 +1320,10 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.rdoCaseInsensityInCode.Checked = true;
             this.rdoCaseInsensityInCode.Location = new System.Drawing.Point(13, 12);
             this.rdoCaseInsensityInCode.Name = "rdoCaseInsensityInCode";
-            this.rdoCaseInsensityInCode.Size = new System.Drawing.Size(119, 16);
+            this.rdoCaseInsensityInCode.Size = new System.Drawing.Size(95, 16);
             this.rdoCaseInsensityInCode.TabIndex = 1;
             this.rdoCaseInsensityInCode.TabStop = true;
-            this.rdoCaseInsensityInCode.Text = "Case insensitive";
+            this.rdoCaseInsensityInCode.Text = "不区分大小写";
             this.rdoCaseInsensityInCode.UseVisualStyleBackColor = true;
             // 
             // gradientPanel12
@@ -1340,9 +1340,9 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.Location = new System.Drawing.Point(4, 4);
             this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(192, 13);
+            this.label13.Size = new System.Drawing.Size(137, 13);
             this.label13.TabIndex = 3;
-            this.label13.Text = "Collation case sensitivity options";
+            this.label13.Text = "整理大小写敏感性选项";
             // 
             // gradientPanel11
             // 
@@ -1359,9 +1359,9 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.rdoCaseSensitive.AutoSize = true;
             this.rdoCaseSensitive.Location = new System.Drawing.Point(14, 54);
             this.rdoCaseSensitive.Name = "rdoCaseSensitive";
-            this.rdoCaseSensitive.Size = new System.Drawing.Size(107, 16);
+            this.rdoCaseSensitive.Size = new System.Drawing.Size(83, 16);
             this.rdoCaseSensitive.TabIndex = 2;
-            this.rdoCaseSensitive.Text = "Case sensitive";
+            this.rdoCaseSensitive.Text = "区分大小写";
             this.rdoCaseSensitive.UseVisualStyleBackColor = true;
             // 
             // rdoCaseAutomatic
@@ -1370,10 +1370,10 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.rdoCaseAutomatic.Checked = true;
             this.rdoCaseAutomatic.Location = new System.Drawing.Point(14, 12);
             this.rdoCaseAutomatic.Name = "rdoCaseAutomatic";
-            this.rdoCaseAutomatic.Size = new System.Drawing.Size(245, 16);
+            this.rdoCaseAutomatic.Size = new System.Drawing.Size(143, 16);
             this.rdoCaseAutomatic.TabIndex = 0;
             this.rdoCaseAutomatic.TabStop = true;
-            this.rdoCaseAutomatic.Text = "Automatic (detect database collation)";
+            this.rdoCaseAutomatic.Text = "自动(检测数据库整理)";
             this.rdoCaseAutomatic.UseVisualStyleBackColor = true;
             // 
             // rdoCaseInsensitive
@@ -1381,9 +1381,9 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.rdoCaseInsensitive.AutoSize = true;
             this.rdoCaseInsensitive.Location = new System.Drawing.Point(14, 33);
             this.rdoCaseInsensitive.Name = "rdoCaseInsensitive";
-            this.rdoCaseInsensitive.Size = new System.Drawing.Size(119, 16);
+            this.rdoCaseInsensitive.Size = new System.Drawing.Size(95, 16);
             this.rdoCaseInsensitive.TabIndex = 1;
-            this.rdoCaseInsensitive.Text = "Case insensitive";
+            this.rdoCaseInsensitive.Text = "不区分大小写";
             this.rdoCaseInsensitive.UseVisualStyleBackColor = true;
             // 
             // chkReloadDB
@@ -1391,9 +1391,9 @@ namespace DBDiff.Schema.SQLServer.Generates.Front
             this.chkReloadDB.AutoSize = true;
             this.chkReloadDB.Location = new System.Drawing.Point(12, 363);
             this.chkReloadDB.Name = "chkReloadDB";
-            this.chkReloadDB.Size = new System.Drawing.Size(288, 16);
+            this.chkReloadDB.Size = new System.Drawing.Size(192, 16);
             this.chkReloadDB.TabIndex = 8;
-            this.chkReloadDB.Text = "Reload database comparison after each update";
+            this.chkReloadDB.Text = "每次更新后重新加载数据库比较";
             this.chkReloadDB.UseVisualStyleBackColor = false;
             // 
             // SqlOptionsFront
